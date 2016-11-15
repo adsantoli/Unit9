@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Change "Hello World" to: "Good Night World"</title>
+
+</head>
+
+<body>
+
+
+
+<h1 id="h1">Hello World!</h1>
+    
+    
+<script>
+document.getElementById("h1").innerHTML  = "Good Night World!";;
+</script>
+    
+   <p>The paragraph above original text was "Hello World!"</p>
+ 
+    
+</body>
+</html>
